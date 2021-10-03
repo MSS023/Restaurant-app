@@ -35,7 +35,7 @@ function Invoice(props) {
 						</tr>
 					})}
 					<tr>
-						<td class="t" colspan="3">Total Payable</td>
+						<td class="t" colspan="3">{"Total Payable + 10% Tip"}</td>
 						<td class="p">{props.total}</td>
 					</tr>
 				</table>
