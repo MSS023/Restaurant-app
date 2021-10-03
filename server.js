@@ -21,7 +21,7 @@ app.post('/print',(req,res) => {
 	obj.save();
 })
 
-app.get('/menu',function (req,res){
+app.get('/loadmenu',function (req,res){
 	Menu.find().then((item) => {
 		return res.json(item)})
 });
