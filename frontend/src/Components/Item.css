@@ -47,3 +47,9 @@
 		height: 65px;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.images {
+		height: 55px;
+	}
+}
