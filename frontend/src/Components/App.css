@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.Background {
+  background: url("V0xp-dTS3z0-unsplash.jpg");
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: -1000;
+}
