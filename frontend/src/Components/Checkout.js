@@ -52,7 +52,7 @@ function Checkout(props) {
 			axios.post("/print",{list: list, name: name, number: number, email: email, total: Number(localStorage.getItem("total"))})
 			ReactDOM.render(
   				<React.StrictMode>
-    				<Invoice list={list} name={name} number={number} email={email} total={Number(localStorage.getItem("total"))*1.1} />
+    				<Invoice list={list} name={name} number={number} email={email} total={Math.round(Number(localStorage.getItem("total"))*1.1)} />
   				</React.StrictMode>,
   				document.getElementById('root')
 			);
