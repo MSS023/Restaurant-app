@@ -7,7 +7,7 @@ function Menu(props) {
 	var [list,setList]=useState([0]);
 	axios.get("/loadmenu").then((res) => {
 		var l=res.data;
-		if(JSON.parse(localStorage.getItem("order")).length!==l.length)
+		if(localStorage.getItem("order")===null || JSON.parse(localStorage.getItem("order")).length!==l.length)
 		{
 			var li=[]
 			list.forEach((item) => {li.push(0)})
