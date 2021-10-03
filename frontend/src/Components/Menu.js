@@ -6,7 +6,7 @@ function Menu(props) {
 	var [list,setList]=useState([]);
 	useEffect(()=>{if(list.length===0 && localStorage.getItem("list")===null)
 	{
-		fetch("/menu").then((response)=>{
+		fetch("/loadmenu").then((response)=>{
 			if(response.ok)
 				return response.json()
 		}).then(res => {
