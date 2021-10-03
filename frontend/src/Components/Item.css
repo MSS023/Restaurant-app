@@ -9,12 +9,8 @@
 	flex-direction: row;
 }
 
-.Logo {
-	margin: auto;
-	width: 20%;
-}
-
 .images {
+	margin: 50% 3px;
 	height: 100px;
 }
 

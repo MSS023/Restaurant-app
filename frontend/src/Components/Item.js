@@ -21,7 +21,7 @@ function Item(props) {
 		</div>
 		<div className="Order">
 			<p className="Price">{"₹ " +props.item.price}</p>
-			<button name={props.index} className="Add" onClick={handleClick} >Add to Cart</button>
+			<button name={props.index} className="Add" onClick={handleClick} >Add</button>
 		</div>
 	</div>
 }
