@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <div className="Background" />
-      <Header />
       <Router>
+        <Header />
         <Switch>
           <Route exact path="/">
             <Home />

@@ -56,6 +56,11 @@ function Checkout(props) {
   				</React.StrictMode>,
   				document.getElementById('root')
 			);
+			var l=JSON.parse(localStorage.getItem("order"));
+			for(var i=0;i<l.length;i++)
+				l[i]=0
+			localStorage.setItem("order",JSON.stringify(l));
+			localStorage.setItem("total",0);
 		}
 		else	
 			alert("please fill the correct details");
