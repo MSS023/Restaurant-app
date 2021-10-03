@@ -46,4 +46,8 @@
 	.Item {
 		padding: 1% 10px;
 	}
+	
+	.images {
+		height: 75px;
+	}
 }

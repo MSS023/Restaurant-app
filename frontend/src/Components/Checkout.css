@@ -87,4 +87,10 @@
 	.checkout-row {
 		flex-direction: column;
 	}
+	.cate {
+		width: 20%;
+	}
+	.input {
+		width: 80%;
+	}
 }
